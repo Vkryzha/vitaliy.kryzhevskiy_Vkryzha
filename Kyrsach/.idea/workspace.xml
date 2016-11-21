@@ -20,82 +20,80 @@
     <favorites_list name="Kyrsach" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="interpolation.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/interpolation.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-109">
-              <caret line="24" column="82" selection-start-line="24" selection-start-column="82" selection-end-line="24" selection-end-column="82" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2703">
-              <caret line="159" column="2" selection-start-line="159" selection-start-column="2" selection-end-line="159" selection-end-column="2" />
-              <folding>
-                <marker date="1479688577644" expanded="true" signature="2429:2753" ph="..." />
-                <marker date="1479688577644" expanded="true" signature="2439:2622" ph="..." />
-                <marker date="1479688577644" expanded="true" signature="2631:2753" ph="..." />
-                <marker date="1479688577644" expanded="false" signature="2661:2674" ph="..." />
-                <marker date="1479688577644" expanded="true" signature="2736:2753" ph="..." />
-                <marker date="1479688577644" expanded="false" signature="3008:3026" ph="..." />
-                <marker date="1479688577644" expanded="true" signature="3059:3169" ph="..." />
-                <marker date="1479688577644" expanded="true" signature="3128:3169" ph="..." />
-                <marker date="1479688577644" expanded="true" signature="3222:3273" ph="..." />
-                <marker date="1479688577644" expanded="false" signature="3370:3389" ph="..." />
-                <marker date="1479688577644" expanded="true" signature="3421:3531" ph="..." />
-                <marker date="1479688577644" expanded="true" signature="3490:3531" ph="..." />
-                <marker date="1479688577644" expanded="true" signature="3584:3637" ph="..." />
-                <marker date="1479688577644" expanded="true" signature="3755:3946" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="vertical" split-proportion="0.7185535">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="interpolation.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/interpolation.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-391">
+                  <caret line="123" column="35" selection-start-line="123" selection-start-column="35" selection-end-line="123" selection-end-column="35" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="34">
+                  <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="1.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/1.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="17">
+                  <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
+                  <folding>
+                    <marker date="1479710962370" expanded="true" signature="2448:2772" ph="..." />
+                    <marker date="1479710962370" expanded="true" signature="2458:2641" ph="..." />
+                    <marker date="1479710962370" expanded="true" signature="2650:2772" ph="..." />
+                    <marker date="1479710962370" expanded="false" signature="2680:2693" ph="..." />
+                    <marker date="1479710962370" expanded="true" signature="2755:2772" ph="..." />
+                    <marker date="1479710962370" expanded="false" signature="3027:3045" ph="..." />
+                    <marker date="1479710962370" expanded="true" signature="3078:3188" ph="..." />
+                    <marker date="1479710962370" expanded="true" signature="3147:3188" ph="..." />
+                    <marker date="1479710962370" expanded="true" signature="3241:3292" ph="..." />
+                    <marker date="1479710962370" expanded="false" signature="3389:3408" ph="..." />
+                    <marker date="1479710962370" expanded="true" signature="3440:3550" ph="..." />
+                    <marker date="1479710962370" expanded="true" signature="3509:3550" ph="..." />
+                    <marker date="1479710962370" expanded="true" signature="3603:3656" ph="..." />
+                    <marker date="1479710962370" expanded="true" signature="3774:3965" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main.js" />
         <option value="$PROJECT_DIR$/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/styles/main.css" />
         <option value="$PROJECT_DIR$/scripts/main.js" />
+        <option value="$PROJECT_DIR$/styles/main.css" />
         <option value="$PROJECT_DIR$/1.php" />
+        <option value="$PROJECT_DIR$/main.js" />
         <option value="$PROJECT_DIR$/interpolation.html" />
       </list>
     </option>
@@ -110,8 +108,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-4" />
     <option name="y" value="-4" />
-    <option name="width" value="1288" />
-    <option name="height" value="988" />
+    <option name="width" value="1374" />
+    <option name="height" value="732" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -138,7 +136,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -171,29 +169,17 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kyrsach" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kyrsach" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -222,6 +208,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -257,19 +249,22 @@
       <updated>1479674553754</updated>
       <workItem from="1479674554998" duration="12000" />
       <workItem from="1479674588561" duration="14679000" />
+      <workItem from="1479708985261" duration="3816000" />
+      <workItem from="1479714643779" duration="11337000" />
+      <workItem from="1479732585382" duration="722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14691000" />
+    <option name="totallyTimeSpent" value="30566000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1288" height="988" extended-state="0" />
+    <frame x="-4" y="-4" width="1374" height="732" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2510981" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -302,6 +297,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/interpolation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="123" column="35" selection-start-line="123" selection-start-column="35" selection-end-line="123" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -310,49 +313,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2703">
-          <caret line="159" column="2" selection-start-line="159" selection-start-column="2" selection-end-line="159" selection-end-column="2" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1479688577644" expanded="true" signature="2429:2753" ph="..." />
-            <marker date="1479688577644" expanded="true" signature="2439:2622" ph="..." />
-            <marker date="1479688577644" expanded="true" signature="2631:2753" ph="..." />
-            <marker date="1479688577644" expanded="false" signature="2661:2674" ph="..." />
-            <marker date="1479688577644" expanded="true" signature="2736:2753" ph="..." />
-            <marker date="1479688577644" expanded="false" signature="3008:3026" ph="..." />
-            <marker date="1479688577644" expanded="true" signature="3059:3169" ph="..." />
-            <marker date="1479688577644" expanded="true" signature="3128:3169" ph="..." />
-            <marker date="1479688577644" expanded="true" signature="3222:3273" ph="..." />
-            <marker date="1479688577644" expanded="false" signature="3370:3389" ph="..." />
-            <marker date="1479688577644" expanded="true" signature="3421:3531" ph="..." />
-            <marker date="1479688577644" expanded="true" signature="3490:3531" ph="..." />
-            <marker date="1479688577644" expanded="true" signature="3584:3637" ph="..." />
-            <marker date="1479688577644" expanded="true" signature="3755:3946" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="2448:2772" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="2458:2641" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="2650:2772" ph="..." />
+            <marker date="1479710962370" expanded="false" signature="2680:2693" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="2755:2772" ph="..." />
+            <marker date="1479710962370" expanded="false" signature="3027:3045" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="3078:3188" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="3147:3188" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="3241:3292" ph="..." />
+            <marker date="1479710962370" expanded="false" signature="3389:3408" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="3440:3550" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="3509:3550" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="3603:3656" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="3774:3965" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/interpolation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-109">
-          <caret line="24" column="82" selection-start-line="24" selection-start-column="82" selection-end-line="24" selection-end-column="82" />
+        <state relative-caret-position="1904">
+          <caret line="112" column="37" selection-start-line="112" selection-start-column="37" selection-end-line="112" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1479710962370" expanded="true" signature="2448:2772" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="2458:2641" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="2650:2772" ph="..." />
+            <marker date="1479710962370" expanded="false" signature="2680:2693" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="2755:2772" ph="..." />
+            <marker date="1479710962370" expanded="false" signature="3027:3045" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="3078:3188" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="3147:3188" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="3241:3292" ph="..." />
+            <marker date="1479710962370" expanded="false" signature="3389:3408" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="3440:3550" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="3509:3550" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="3603:3656" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="3774:3965" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interpolation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/main.js" />
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
+          <folding>
+            <marker date="1479710962370" expanded="true" signature="2448:2772" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="2458:2641" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="2650:2772" ph="..." />
+            <marker date="1479710962370" expanded="false" signature="2680:2693" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="2755:2772" ph="..." />
+            <marker date="1479710962370" expanded="false" signature="3027:3045" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="3078:3188" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="3147:3188" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="3241:3292" ph="..." />
+            <marker date="1479710962370" expanded="false" signature="3389:3408" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="3440:3550" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="3509:3550" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="3603:3656" ph="..." />
+            <marker date="1479710962370" expanded="true" signature="3774:3965" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interpolation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="123" column="35" selection-start-line="123" selection-start-column="35" selection-end-line="123" selection-end-column="35" />
           <folding />
         </state>
       </provider>

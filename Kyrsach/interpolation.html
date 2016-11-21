@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <META  charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <title>Курсова робота</title>
+</head>
+
+<body>
+
+<input type='button' class='clear' value='Очистити поля' onClick=location.href="interpolation.html">
+
+<div class="points" >
+<table class="tab">
+    <tr> <th colspan="2"> <h3> Будь ласка, введіть точки: </h3> </th> </tr>
+    <tr> <th>Введіть X:</th> <th>Введіть Y:</th> </tr>
+    <tr><td> x<sub>1</sub>:<input type="number" id="x0" min="0" max="100" step="0.05"> </td> <td> y<sub>1</sub>:<input type="number" id="y0" min="0" max="100" step="0.01"></td> </tr>
+    <tr><td> x<sub>2</sub>:<input type="number" id="x1" min="0" max="100" step="0.05"> </td> <td> y<sub>2</sub>:<input type="number" id="y1" min="0" max="100" step="0.01"></td> </tr>
+    <tr><td> x<sub>3</sub>:<input type="number" id="x2" min="0" max="100" step="0.05"> </td> <td> y<sub>3</sub>:<input type="number" id="y2" min="0" max="100" step="0.01"></td> </tr>
+    <tr><td> x<sub>4</sub>:<input type="number" id="x3" min="0" max="100" step="0.05"> </td> <td> y<sub>4</sub>:<input type="number" id="y3" min="0" max="100" step="0.01"></td> </tr>
+    <tr><td> x<sub>5</sub>:<input type="number" id="x4" min="0" max="100" step="0.05"> </td> <td> y<sub>5</sub>:<input type="number" id="y4" min="0" max="100" step="0.01"></td> </tr>
+    <tr><td> x<sub>6</sub>:<input type="number" id="x5" min="0" max="100" step="0.05"> </td> <td> y<sub>6</sub>:<input type="number" id="y5" min="0" max="100" step="0.01"></td> </tr>
+</table>
+    <input type='submit' class='sub' value='Обрахувати' onclick="interpolation()">
+</div>
+
+<div class="method1"> <h3 id="h">Вихідні дані за першою формулою</h3>
+
+    <table id="tabl">
+        <tr id="t"> <th>X:</th> <td><output  id="x1_1">0</output></td> <td><output  id="x1_2">0</output></td> <td><output  id="x1_3">0</output></td> <td><output  id="x1_4">0</output></td> <td><output  id="x1_5">0</output></td> <td><output  id="x1_6">0</output></td> </tr>
+        <tr id="t"> <th>Y:</th> <td><output  id="y1_1">0</output></td> <td><output  id="y1_2">0</output></td> <td><output  id="y1_3">0</output></td> <td><output  id="y1_4">0</output></td> <td><output  id="y1_5">0</output></td> <td><output  id="y1_6">0</output></td> </tr>
+    </table>
+
+</div>
+
+<div class="method2">
+
+    <h3 id="h">Вихідні дані за другою формулою</h3>
+
+    <table id="tabl">
+        <tr id="t"> <th>X:</th> <td><output  id="x2_1">0</output></td> <td><output  id="x2_2">0</output></td> <td><output  id="x2_3">0</output></td> <td><output  id="x2_4">0</output></td> <td><output  id="x2_5">0</output></td> <td><output  id="x2_6">0</output></td> </tr>
+        <tr id="t"> <th>Y:</th> <td><output  id="y2_1">0</output></td> <td><output  id="y2_2">0</output></td> <td><output  id="y2_3">0</output></td> <td><output  id="y2_4">0</output></td> <td><output  id="y2_5">0</output></td> <td><output  id="y2_6">0</output></td> </tr>
+    </table>
+</div>
+<div class="graph"></div>
+
+<script>
+
+    function interpolation() {
+        var vhx = [];
+        vhx[0] = document.getElementById('x0');
+        vhx[1] = document.getElementById('x1');
+        vhx[2] = document.getElementById('x2');
+        vhx[3] = document.getElementById('x3');
+        vhx[4] = document.getElementById('x4');
+        vhx[5] = document.getElementById('x5');
+
+        var vhy = [];
+        vhy[0] = document.getElementById('y0');
+        vhy[1] = document.getElementById('y1');
+        vhy[2] = document.getElementById('y2');
+        vhy[3] = document.getElementById('y3');
+        vhy[4] = document.getElementById('y4');
+        vhy[5] = document.getElementById('y5');
+
+        var mass1 = vhx;  //отримуємо набір точок x
+        var mass2 = y;  //отримуємо набір точок y
+        var n = 6;      //допоміжна змінна
+        var rizn1 = [];
+        var rizn2 = [];
+        var rizn  = [rizn1, rizn2];  // матриця різниць
+
+        var krok = x[1]-x[0];   //ширина кроку по х
+
+        for(  i=0;  i<n;  i++)  //обнуляємо матрицю різниць
+        {
+            for(var j=0; j<n-2; j++)
+            {
+                rizn[i][j]=0;
+            }
+        }
+
+        for( i=0; i<n-1; i++) //обчислюємо різниці першого порядку
+        {
+             rizn[i][0]= y[i+1] - y[i];
+        }
+
+        for( j=1; j<n-3;  j++)   //знаходимо значення різниць ще двох порядків
+        {
+            for( i=0; i<=n-j-2; i++)  //кількість різниць з кожним порядком зменшуватиметься на 1
+            {
+                rizn[i][j]=rizn[i+1][j-1]-rizn[i][j-1];
+                if(rizn[4][2]) break;
+            }
+        }
+
+        ////перша формула Гауса - інтерполяція вперед
+
+        var x = vhx[0];
+        var tx = [];   //для зберігання координат точок за першою формулою
+        var ty = [];
+
+        for(var ix=0; ix<(6*2)+1; ix++)
+        {
+            if(ix!=0)
+            {
+                x=x+0.01;
+            }
+
+           var i=0;
+            while(vhx[i]<x)
+            {
+                i++;   //знаходимо індекс елемента зліва від х
+            }
+
+            var p = (x-vhx[i])/krok;
+            var y1 = p*rizn[i][0];
+            var y2 = p*(p-1)*rizn[i-1][1]/2;
+            var y3 = p*(p-1)*(p+1)*rizn[i-1][2]/6;
+            var y4 = p*(p-1)*(p+2)*(p-2)*rizn[i-2][3]/24;
+            var yp = vhy[i]+y1+y2+y3+y4;
+
+            tx[ix] = x;
+            ty[ix] = yp;
+        }
+
+        ////друга формула Гауса - інтерполяція назад
+
+        x=vhx[6-1];
+        var tx1 = [];
+        var ty1 = [];
+
+        for(ix=0; ix<(6*2)+1; ix++)
+        {
+            if(ix!=0)
+            {
+                x=x-0.01;
+            }
+
+             i =0;
+            do{
+                i++;   //знаходимо індекс елемента справа від х
+            } while(vhx[i]<x);
+
+            p = (x-vhx[i])/krok;
+            y1 = p*rizn[i-1][0];
+            y2 = p*(p-1)*rizn[i-1][1]/2;
+            y3 = p*(p-1)*(p+1)*rizn[i-2][2]/6;
+            y4 = p*(p-1)*(p+1)*(p-2)*rizn[i-2][3]/24;
+            yp = vhy[i]+y1+y2+y3+y4;
+
+            tx1[ix] = x;
+            ty1[ix] = yp;
+        }
+
+    }
+</script>
+
+</body>
+</html>

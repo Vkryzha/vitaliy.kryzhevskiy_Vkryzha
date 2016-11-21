@@ -1,0 +1,133 @@
+body{
+    background-color: darkseagreen;
+    font-family:Courier, Monospace, Verdana, Helvetica, Arial, sans-serif;
+    font-size:100%;
+    font-style:italic;
+    color:#2C3E50;
+}
+
+table{
+    border-radius: 10px 10px 10px 10px;
+    border: solid brown 1px;
+
+
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+tr{
+    height: 60px;
+}
+#t{
+    background-color: gray;
+    height: 32px;
+    width: 80px;
+
+}
+
+#h{
+    margin-top:4px;
+    text-align: center;
+    width: 500px;
+}
+
+#tabl{
+    position: absolute;
+    left: 50px;
+    top: 35px;
+    width: 700px;
+    text-align: center;
+}
+
+#aa{
+    position:absolute;
+    left:30px;
+    top:60px;
+    text-align: center;
+    font-size:330%;
+    color: #444444;;
+}
+
+.next{
+    background-color: gold;
+    font-size:200%;
+    position:absolute;
+    top:690px;
+    left:950px;
+    color: lightslategrey;
+    font-weight:bold;
+    width: 250px;
+    height: 80px;
+}
+
+.clear{
+    background-color: gold;
+    font-size:100%;
+    position:absolute;
+    top:10px;
+    left:10px;
+    color: lightslategrey;
+    font-weight:bold;
+    width: 150px;
+    height: 50px;
+}
+
+.points{
+    background-color: gray;
+    position: absolute;
+    border: solid brown 1px;
+    width: 294px;
+    height: 600px;
+    top: 120px;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.sub{
+    background-color: gold;
+    font-size:100%;
+    position:absolute;
+    bottom:10px;
+    left:10px;
+    right: 10px;
+    color: lightslategrey;
+    font-weight:bold;
+    width: 274px;
+    height: 50px;
+}
+
+.graph{
+    background-color: darkgoldenrod;
+    position: absolute;
+    border: solid brown 1px;
+    width: 700px;
+    height: 500px;
+    top: 170px;
+    border-radius: 10px 10px 10px 10px;
+    left: 450px;
+}
+
+.method1{
+    background-color: snow;
+    position: absolute;
+    border: solid brown 1px;
+    width: 780px;
+    height: 120px;
+    top: 20px;
+    border-radius: 10px 10px 10px 10px;
+    left: 410px;
+}
+
+
+.method2{
+    background-color: snow;
+    position: absolute;
+    border: solid brown 1px;
+    width: 780px;
+    height: 120px;
+    top: 700px;
+    border-radius: 10px 10px 10px 10px;
+    left: 410px;
+}
